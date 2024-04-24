@@ -7,12 +7,10 @@ function App() {
     <Router>
       <>
         <Navigation />
-        <Router>
-          <Routes>
-            <Route path="/" element={<TodoApp />} />
-            <Route path="/todo" element={<TodoApp />} />
-          </Routes>
-        </Router>
+        <Routes>
+          <Route path="/" element={<TodoApp />} />
+          <Route path="/todo" element={<TodoApp />} />
+        </Routes>
       </>
     </Router>
   );
