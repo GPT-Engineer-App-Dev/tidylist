@@ -8,7 +8,7 @@ function App() {
       <>
         <Navigation />
         <Routes>
-          <Route path="/" element={<TodoApp />} />
+          <Route path="/" element={<div>Welcome to the Todo App. Navigate to the Todo App page to manage your tasks.</div>} />
           <Route path="/todo" element={<TodoApp />} />
         </Routes>
       </>
